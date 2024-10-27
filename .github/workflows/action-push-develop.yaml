@@ -1,0 +1,12 @@
+name: Merge to Develop Jobs
+
+on:
+  push:
+    branches:
+      - develop
+
+jobs:
+  Execute-Test:
+    uses: ./.github/workflows/job-execute-tests.yaml
+  Bump-Version:
+    uses: ./.github/workflows/job-bump-version.yaml
