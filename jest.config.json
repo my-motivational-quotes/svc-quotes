@@ -6,6 +6,6 @@
     }
   },
   "collectCoverage": true,
-  "collectCoverageFrom": ["src/**/*.js"],
+  "collectCoverageFrom": ["src/**/*.js", "!src/index.js"],
   "coverageDirectory": "coverage"
 }
