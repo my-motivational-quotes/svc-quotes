@@ -1,0 +1,11 @@
+{
+  "testEnvironment": "node",
+  "coverageThreshold": {
+    "global": {
+      "lines": 85
+    }
+  },
+  "collectCoverage": true,
+  "collectCoverageFrom": ["src/**/*.js"],
+  "coverageDirectory": "coverage"
+}
