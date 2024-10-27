@@ -1,0 +1,10 @@
+name: Daily Regression
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: "0 0 * * *"
+
+jobs:
+  Execute-Test:
+    uses: ./.github/workflows/job-execute-tests.yaml
