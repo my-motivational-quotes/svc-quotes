@@ -9,6 +9,7 @@ const QUOTES = [
   "You're out here building an empire, so don't let minor setbacks throw shade. 🏛️🌞",
   "Life's a WIP (work in progress), so give yourself credit for every lil' win. 🥇💥",
   "Level up that self-love and grind. You're the CEO of your life. 👑💼",
+  "Stay unapologetically you, and let your vibe attract your tribe. 🌈👯",
 ];
 
 const QuotesService = {
